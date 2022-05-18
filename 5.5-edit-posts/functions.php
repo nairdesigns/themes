@@ -38,7 +38,7 @@ function jsforwp_enqueue_scripts() {
         'jsforwp-theme-js',
         'jsforwp_vars',
         [
-          'logged_in' => 'LOGGED_IN'
+          'logged_in' => $logged_in
         ]
     );
 
